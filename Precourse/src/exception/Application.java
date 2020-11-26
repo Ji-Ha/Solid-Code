@@ -16,6 +16,7 @@ public class Application {
 
         //depth가 2 이하로 만들어야하는 것.
         while(check){
+            //이 순간 컴퓨터의 Target값 결정됨.
             GameCycle g = new GameCycle();
             System.out.print("숫자를 입력해주세요 : ");
             g.GameStart(scanner.nextInt());
