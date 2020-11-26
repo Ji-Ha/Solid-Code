@@ -16,9 +16,9 @@ public class Application {
 
         //depth가 2 이하로 만들어야하는 것.
         while(check){
-            PlayCycle p = new PlayCycle();
+            GameCycle g = new GameCycle();
             System.out.print("숫자를 입력해주세요 : ");
-            p.GameStart(scanner.nextInt());
+            g.GameStart(scanner.nextInt());
             check = false;
         }
     }

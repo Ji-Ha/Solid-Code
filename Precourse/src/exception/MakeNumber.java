@@ -41,18 +41,18 @@ public class MakeNumber {
     MakeNumber(int answer){
         //3자리 수를 입력하지 않았을 때, 오류 throw
         if(answer < UserInputLimit){
-            throw new IllegalArgumentException();
+            throw new IllegalArgumentException("3자리 수를 입력해주세요!");
         }
         //arraylist로 변환.
         while(answer > 0){
             int element = answer % 10;
             //전에 쓴 적이 있으면, false.
             if(!IsUsed(element)) {
-                throw new IllegalArgumentException();
+                throw new IllegalArgumentException("중복되지 않은 수를 입력해주세요!");
             }
             //범위가 벗어나면, false.
             if(!CheckRange(element)){
-                throw new IllegalArgumentException();
+                throw new IllegalArgumentException("1~9 사이의 숫자만 입력이 가능합니다!");
             }
             else{
                 //값을 넣을 때마다 0에 있던 숫자는 한칸 뒤로 감.
