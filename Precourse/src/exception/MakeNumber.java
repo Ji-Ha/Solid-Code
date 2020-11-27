@@ -62,6 +62,8 @@ public class MakeNumber {
         }
     }
 
+
+
     //private한 target return 하는 함수.
     protected ArrayList<Integer> GetTarget(){
         return this.target;
