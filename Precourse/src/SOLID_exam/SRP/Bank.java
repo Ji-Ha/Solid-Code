@@ -1,4 +1,4 @@
-package SOLID_exam;
+package SOLID_exam.SRP;
 
 // 지금은
 //여기서 일급컬렉션을 적용하는건 잘못된건가?(price 값 변경이 필요하기 때문에?)

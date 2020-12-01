@@ -1,4 +1,4 @@
-package SOLID_exam;
+package SOLID_exam.OCP;
 //Interface를 활용하므로써, OCP를 적용시켜보았다.
 //Interface를 안써봐서 좀 생소하긴 한데, 재밌는 거 같다. 코드도 간단해지고
 //규격을 활용하고, 단순화시키면서 하는 방식이 맘에 든다.

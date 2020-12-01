@@ -1,4 +1,4 @@
-package SOLID_exam;
+package SOLID_exam.OCP;
 
 public class LineMessenger implements Messenger{
 	@Override
