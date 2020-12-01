@@ -5,8 +5,8 @@ import java.util.Scanner;
 
 //게임이 돌아가는 것을 관리하는 class
 public class GameCycle{
-    static private ArrayList<Integer> UserValue = new ArrayList<>(Application.LENGTH);
-    static private ArrayList<Integer> CompValue = new ArrayList<>(Application.LENGTH);
+    static private ArrayList<Integer> UserValue = new ArrayList<>(Account.LENGTH);
+    static private ArrayList<Integer> CompValue = new ArrayList<>(Account.LENGTH);
     final Scanner scanner = new Scanner(System.in);
 
     GameCycle(){

@@ -8,7 +8,7 @@ public class MakeNumber {
     final static int EndNum = 9;
     //사용자가 세자리 수를 입력하는지 확인하는 변수.
     final static int UserInputLimit = 100;
-    private ArrayList<Integer> target = new ArrayList<>(Application.LENGTH);
+    private ArrayList<Integer> target = new ArrayList<>(Account.LENGTH);
 
     //target에 element 중복을 체크하는 함수.
     private void IsUsed(int element) throws IllegalArgumentException{
@@ -41,7 +41,7 @@ public class MakeNumber {
 
     //target을 만든다(임의의 수 버전)
     MakeNumber(){
-        while(target.size() < Application.LENGTH){
+        while(target.size() < Account.LENGTH){
             int element = RandomUtils.nextInt(StartNum, EndNum);
             if(AmUsed(element)){
                 this.target.add(element);

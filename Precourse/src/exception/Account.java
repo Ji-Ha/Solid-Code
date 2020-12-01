@@ -3,7 +3,7 @@ package exception;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Application {
+public class Account {
     final static int LENGTH = 3;
     final static int GO = 1;
     //게임을 이어갈껀지만 결정하는 main
